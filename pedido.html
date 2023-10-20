@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedido</title>
+</head>
+<body>
+    
+    <h1> Escolha o seu pedido</h1>
+    <script>
+
+        const haburguers = [1.36, 2.31, 2.81, 3.21]
+        const Acompanhamento = {
+            Nuggets: 3.69, Fritas: 1.58, 
+        }; 
+        const Bebidas = {
+            Coca: 1.48,  fanta: 2.58,  Água: 0.98
+        }; 
+        const itensEscolhidos=("")
+        const escolhaHamburguers = prompt("Escolha o seu hamburguer( X1, X2, X3, X4): ");
+        itensEscolhidos.push(escolhaHambur);
+        const escolhaacompanhamento = prompt("Escolha o seu acompanhamento( Nuggets, fritas): ");
+        itensEscolhidos.push(escolhaacompanhamento);
+        const escolhabebida = prompt("Escolha a sua bebida( Coca, fanta ,água ): ");
+        itensEscolhidos.push(escolhabebida);
+        let totalpedido =o;
+        totalpedido += hamburguers(escolhaHamburguer) || 0;
+        totalpedido += acompanhamento(escolhaacompanhamento) || 0;
+        totalpedido += bebida(escolhabebida) || 0;
+        const resultado ="itensEscolhidos: " + " <br>total do pedido: R$ "+ totalpedido.tofixed(2);
+        document.body.innerHTML += "<p>" + resultado + "</p>";
+
+
+    </script>
+</body>
+</html>
